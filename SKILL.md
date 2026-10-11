@@ -168,7 +168,7 @@ Das kostet eine Abfrage und verändert alles Weitere: Bei 40 Treffern sieht die 
 2. **weit**: dieselben Komponenten plus alle Schreibvarianten und Synonyme.
 3. optional **mit Vokabular**: zusätzlich die Schlagwörter der Datenbank (Schritt 5).
 
-Vergleiche die Mengen. **Weichen sie um mehr als das Dreifache ab, weißt du über das Feld noch nichts** – dann ist die enge Variante nachweislich kaputt, und es gilt die weite oder eine mittlere. Die Spanne gehört in die Ausgabe: Sie ist selbst eine Aussage über die Belastbarkeit.
+Vergleiche die Mengen. **Weichen sie um mehr als das Dreifache ab, weißt du über das Feld noch nichts** – die enge Variante ist dann verdächtig, nicht schon widerlegt: Der Recall-Test (Schritt 5) entscheidet. Findet die enge Variante die bekannten Treffer nicht, gilt die weite oder eine mittlere. Findet sie sie, darf sie bleiben; die große Spanne wird dann als Präzisionsgewinn ausgewiesen. Die Spanne gehört in die Ausgabe: Sie ist selbst eine Aussage über die Belastbarkeit.
 
 Dann eine Variante wählen, die Wahl begründen und benennen, was dabei herausfällt.
 
@@ -178,6 +178,8 @@ Nimm die zwei bis drei Arbeiten, die aus Schritt 1, aus dem Gespräch oder aus e
 
 - **Findet sie sie** → die Anfrage trägt.
 - **Findet sie sie nicht** → die Anfrage ist kaputt. Nicht weiterarbeiten, sondern den Grund suchen: fehlendes Synonym, zu strenge Phrase, erzwungene Komponente. Dann korrigieren und erneut prüfen.
+
+**Wähle die bekannten Arbeiten bewusst mit abweichender Wortwahl** (älter, Berichte/graue Literatur, Nachbarfach, anderer Begriff für dasselbe) – Arbeiten, die du über den Kernbegriff gefunden hast, findet die Anfrage immer, der Test prüft dann nur die eigene Formulierung. Fehlen solche Arbeiten, hole sie aus dem Literaturverzeichnis einer Übersichtsarbeit zum Thema.
 
 Das ist der etablierte Weg (relativer Recall) und der einzige, der einen systematischen Suchfehler auffliegen lässt, bevor er zum Befund wird. Gibt es keine bekannten Arbeiten, lässt sich der Test nicht fahren – dann gehört das in die Suchgüte-Zeile.
 

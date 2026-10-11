@@ -120,9 +120,9 @@ Dann lesen:
 |---|---|
 | bis etwa 1,5-fach | die Formulierung ist robust, enge Variante genügt |
 | 1,5- bis 3-fach | normal; weite Variante nehmen, enge als Präzisionsreserve |
-| über 3-fach | die enge Variante ist nachweislich kaputt – weite oder mittlere Variante nehmen und den Grund suchen |
+| über 3-fach | die enge Variante ist verdächtig – Recall-Test entscheidet: verfehlt sie bekannte Treffer, weite oder mittlere Variante nehmen und den Grund suchen; findet sie alle, darf sie bleiben (Spanne = Präzisionsgewinn) |
 
-In einem Testfall lag das Verhältnis über dem Sechsfachen. Das war kein Grenzfall, sondern ein Konstruktionsfehler.
+In einem Testfall lag das Verhältnis über dem Sechsfachen und die enge Variante verfehlte bekannte Treffer – ein Konstruktionsfehler. In einem anderen lag es beim Zwanzigfachen, und die enge Variante fand alle bekannten Treffer: dort war die Spanne ein Präzisionsgewinn. Das Verhältnis löst den Verdacht aus, der Recall-Test urteilt.
 
 Die Spanne gehört in die Ausgabe. Eine einzelne Trefferzahl ohne Spanne suggeriert Genauigkeit, die es nicht gibt.
 
@@ -132,7 +132,7 @@ Die Spanne gehört in die Ausgabe. Eine einzelne Trefferzahl ohne Spanne suggeri
 
 Der einzige Test, der einen systematischen Suchfehler auffliegen lässt, bevor er zum Befund wird.
 
-1. Zwei bis drei Arbeiten nehmen, die bereits bekannt sind – aus der Vorab-Klärung, aus dem Gespräch, aus einem vorliegenden Literaturverzeichnis, aus einer früheren Recherche.
+1. Zwei bis drei Arbeiten nehmen, die bereits bekannt sind – aus der Vorab-Klärung, aus dem Gespräch, aus einem vorliegenden Literaturverzeichnis, aus einer früheren Recherche. **Mindestens eine mit abweichender Wortwahl** (älter, Bericht/graue Literatur, Nachbarfach): Was über den Kernbegriff gefunden wurde, findet die Anfrage immer – der Test prüfte sonst nur die eigene Formulierung. Fehlen solche Arbeiten, aus dem Literaturverzeichnis einer Übersichtsarbeit nehmen.
 2. Prüfen, ob die gewählte Anfrage sie enthält. Am schnellsten über eine Abfrage, die auf die DOIs oder Titel einschränkt und gegen die Treffermenge geprüft wird.
 3. Fehlt eine: **nicht weiterarbeiten.** Den Grund suchen – fehlendes Synonym, zu strenge Phrase, erzwungene Komponente, falscher Filter –, korrigieren, erneut prüfen.
 
